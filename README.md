@@ -79,7 +79,7 @@ Tools	    Git, VS Code, Postman
 
 ⚡ Installation and Setup Instructions
 1️⃣ Clone the repository
-git clone https://github.com/your-username/ecommerce-website.git
+git clone https://github.com/soM1203/shopzy-ecommerce
 cd ecommerce-website
 
 2️⃣ Install dependencies
