@@ -4,44 +4,42 @@ This is a full-stack e-commerce web application built using MERN (MongoDB, Expre
 
 📁 Project Structure
 ecommerce-website/
-frontend/
-├── node_modules/
-├── public/
-│   ├── index.html
-│   └── logo.png
-├── src/
-│   ├── components/
+├── frontend/
+│   ├── node_modules/
+│   ├── public/
+│   │   ├── index.html
+│   │   └── logo.png
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Cart.js
+│   │   │   ├── Checkout.js
+│   │   │   ├── ProductCard.js
+│   │   │   ├── ProductGrid.js
+│   │   │   └── Receipt.js
+│   │   ├── services/
+│   │   │   └── api.js
+│   │   ├── App.css
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── styles.css
+│   ├── package-lock.json
+│   └── package.json
+├── backend/
+│   ├── models/
 │   │   ├── Cart.js
-│   │   ├── Checkout.js
-│   │   ├── ProductCard.js
-│   │   ├── ProductGrid.js
-│   │   └── Receipt.js
-│   ├── services/
-│   │   └── api.js
-│   ├── App.css
-│   ├── App.js
-│   ├── index.js
-│   └── styles.css
-├── package-lock.json
-└── package.json
-
-
-backend/
-├── models/
-│   ├── Cart.js
-│   ├── Order.js
-│   ├── Product.js
-├── node_modules/
-├── routes/
-│   ├── cartProducts.js
-│   ├── cartRoutes.js
-│   ├── productRoutes.js
-├── .env
-├── db.js
-├── db.sqlite
-├── package-lock.json
-├── package.json
-└── server.js
+│   │   ├── Order.js
+│   │   └── Product.js
+│   ├── node_modules/
+│   ├── routes/
+│   │   ├── cartProducts.js
+│   │   ├── cartRoutes.js
+│   │   └── productRoutes.js
+│   ├── .env
+│   ├── db.js
+│   ├── db.sqlite
+│   ├── package-lock.json
+│   ├── package.json
+│   └── server.js
 
 🚀 Features
 🖥️ Frontend
