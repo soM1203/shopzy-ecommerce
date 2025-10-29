@@ -1,0 +1,9 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+.container { max-width: 1000px; margin: 0 auto; padding: 16px; }
+main { display: grid; grid-template-columns: 2fr 1fr; gap: 16px; }
+.products { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
+.card { border: 1px solid #ddd; padding: 12px; border-radius: 6px; }
+.cart { border: 1px solid #ddd; padding: 12px; border-radius: 6px; }
+.modal { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.4); }
+.modal-content { background: white; padding: 16px; border-radius: 8px; width: 320px; }
+@media (max-width: 700px) { main { grid-template-columns: 1fr; } }
