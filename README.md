@@ -135,3 +135,4 @@ Name: Soham Taru
 Email: tarusoham031@gmail.com
 Internshala Assignment: E-commerce Website Project
 GitHub: https://github.com/som1203
+Portfolio:https://soham-taru-portfolio.vercel.app/
